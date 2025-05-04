@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="../css/portfolio_base.css">
+    <link rel="stylesheet" href="../css/resume.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <nav class="topNav" id="myTopNav">
+        <a href="../index.html">Home</a>
+        <a href="goals.html">Goals</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="#" class="hamburgerIcon" onclick="navFunc()">
+            ☰
+        </a>
+    </nav>
+
+    <section id="resume">
+        <div class='box' id="resumeHeader">
+            <div id="name" onclick="copyName()">
+                <h1>Dang Nguyen</h1>
+            </div>
+            <div id="title">IT Programer</div>
+        </div>
+        <div class='box' id="contact">
+            <h2>Contact</h2>
+
+            <div>
+                <span class="material-icons-outlined">
+                    mail
+                </span>
+                <a href="mailto:Huhuyjuhu1@gmail.com">
+                    Huhuyjuhu1@gmail.com
+                </a>
+                <span class="material-icons-outlined" onclick="copyEmail()">
+                    content_copy
+                </span>
+
+                <span class="material-icons-outlined">
+                    call
+                </span>
+                <a href="tel:+17827748989">
+                    +1 (782) 774 8989
+                </a>
+                <span class="material-icons-outlined" onclick="copyPhone()">
+                    content_copy
+                </span>
+
+                <span class="material-icons-outlined">
+                    location_on
+                </span>
+                <a href="https://maps.app.goo.gl/5kizkYe5K4QDF8T89" target="_blank">
+                    6080 Pepperell St, Halifax
+                </a>
+                <span class="material-icons-outlined" onclick="copyAddress()">
+                    content_copy
+                </span>
+            </div>
+        </div>
+        <div class='box' id="aboutMe">
+            <h2>About me</h2>
+            <p>
+                I'm a highly motivated IT Programming student with strong skills in Python, SQL, and data analysis.
+                Passionate about solving real-world problems through technology, I'm seeking an internship or
+                entry-level role where I can contribute to impactful projects and continue learning in a collaborative
+                team environment.
+            </p>
+        </div>
+        <div class='box' id="experience">
+            <h2>Work Experience</h2>
+            <p>
+                None
+            </p>
+        </div>
+        <div class='box' id="education">
+            <h2>Education</h2>
+            Nova Scotia Community College
+            <ul>
+                <li>2025 - 2027</li>
+                <li>IT Programming</li>
+            </ul>
+        </div>
+        <div class='box' id="skill">
+            <h2>Skill</h2>
+            <ul>
+                <li>Project Management</li>
+                <li>Public Relations</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Leadership</li>
+                <li>Effective Communication</li>
+                <li>Critical Thinking</li>
+            </ul>
+        </div>
+        <div class='box' id="language">
+            <h2>Language</h2>
+            <ul>
+                <li>English</li>
+                <li>Vietnamese</li>
+            </ul>
+        </div>
+
+    </section>
+</body>
+
+</html>

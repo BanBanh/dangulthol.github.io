@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="../css/portfolio_base.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <nav class="topNav" id="myTopNav">
+        <a href="../index.html">Home</a>
+        <a href="goals.html">Goals</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="resume.html">Resume</a>
+        <a href="#" class="hamburgerIcon" onclick="navFunc()">
+            ☰
+        </a>
+    </nav>
+
+    <section class="box" id="contact">
+        <p class="contact-btn">
+            <span class="material-icons-outlined">
+                account_circle
+            </span>
+            <span>
+                Dang Nguyen
+            </span>
+            <span class="material-icons-outlined" onclick="copyName()">
+                content_copy
+            </span>
+        </p>
+        <p class="contact-btn">
+            <span class="material-icons-outlined">
+                mail
+            </span>
+            <a href="mailto:Huhuyjuhu1@gmail.com">
+                Huhuyjuhu1@gmail.com
+            </a>
+            <span class="material-icons-outlined" onclick="copyEmail()">
+                content_copy
+            </span>
+        </p>
+        <p class="contact-btn">
+            <span class="material-icons-outlined">
+                call
+            </span>
+            <a href="tel:+17827748989">
+                +1 (782) 774 8989
+            </a>
+            <span class="material-icons-outlined" onclick="copyPhone()">
+                content_copy
+            </span>
+        </p>
+        <p class="contact-btn">
+            <span class="material-icons-outlined">
+                location_on
+            </span>
+            <a href="https://maps.app.goo.gl/5kizkYe5K4QDF8T89" target="_blank">
+                6080 Pepperell St, Halifax
+            </a>
+            <span class="material-icons-outlined" onclick="copyAddress()">
+                content_copy
+            </span>
+        </p>
+    </section>
+    <!-- <div style="height: 10px;"></div>
+    <section class="box">
+        <h2>Contact Me</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+
+    </section> -->
+
+
+</body>
+
+</html>
